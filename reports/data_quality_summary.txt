@@ -1,0 +1,10 @@
+Data Quality Summary
+
+* Successfully loaded and explored all 10 datasets.
+* Checked the number of rows and columns, data types, and sample records for each dataset.
+* Reviewed the datasets for missing values and duplicate records.
+* Explored the fund master dataset to understand fund houses, categories, sub-categories, and risk levels.
+* Verified that all AMFI codes in the fund master dataset are available in the NAV history dataset.
+* Fetched live NAV data from MFAPI for HDFC Top 100 Direct Fund and saved it as a CSV file.
+* Retrieved the latest NAV for 5 selected mutual fund schemes.
+* Overall, the datasets were loaded successfully and are ready for further analysis.
