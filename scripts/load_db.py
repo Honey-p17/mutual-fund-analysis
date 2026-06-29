@@ -30,7 +30,7 @@ for filename, table_name in files_to_tables.items():
     df.to_sql(table_name, conn, if_exists="append", index=False)
 
 unique_dates = set()
-if "fact_nav" in loaded_dfs:
+if "fact_nav" in loaded_dfs: 
     unique_dates.update(loaded_dfs["fact_nav"]["date"].dropna().unique())
 if "fact_transactions" in loaded_dfs:
     unique_dates.update(loaded_dfs["fact_transactions"]["transaction_date"].dropna().unique())
